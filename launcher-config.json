@@ -10,9 +10,9 @@
     "type": "info"
   },
   "slideshow_images": [
-    "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/bg1.png",
-    "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/bg2.jpg",
-    "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/bg3.webp"
+    "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/slide1.jpg",
+    "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/slide2.jpg",
+    "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/slide3.png"
   ],
   "slideshow_interval_ms": 5000,
   "social_links": {

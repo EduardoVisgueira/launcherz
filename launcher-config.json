@@ -1,0 +1,51 @@
+{
+  "config_url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/launcher-config.json",
+  "launcher_name": "Apocalipse Z",
+  "forge_version": "1.20.1-47.4.10",
+  "login_title": "Acesso à Zona",
+  "login_subtitle": "Identifique-se para entrar na quarentena",
+  "play_button_label": "ENTRAR NA ZONA",
+  "announcement": {
+    "text": "",
+    "type": "info"
+  },
+  "slideshow_images": [
+    "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/slide1.jpg",
+    "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/slide2.jpg",
+    "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/slide3.png"
+  ],
+  "slideshow_interval_ms": 5000,
+  "social_links": {
+    "discord": "",
+    "youtube": "",
+    "instagram": "",
+    "twitter": "",
+    "tiktok": "",
+    "telegram": "",
+    "website": ""
+  },
+  "store_url": "",
+  "store_label": "Loja",
+  "news": [
+    {
+      "title": "Bem-vindo à Zona",
+      "body": "Servidor no ar. Boa sobrevivência.",
+      "date": "2026-06-15"
+    }
+  ],
+  "modpack": {
+    "name": "Zona Morta",
+    "manifest_url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/manifest.json",
+    "version": "1.0.0"
+  },
+  "ram": {
+    "default_mb": 4096,
+    "min_mb": 2048,
+    "max_mb": 16384
+  },
+  "theme": {
+    "accent_color": "#84cc16",
+    "background_overlay_opacity": 0.8,
+    "logo_url": ""
+  }
+}

@@ -664,12 +664,12 @@
     {
       "path": "config/ageingspawners-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/ageingspawners-common.toml",
-      "sha256": "2f9ae3dc2bcf45146dad65378ab8ed43bfaf3b298a43d4f2a3cc9fd5d230c732"
+      "sha256": "b35bca22a9d6b9b1b8a7ca36c1d27e5f1815828806dcdced559967fe59ca9079"
     },
     {
       "path": "config/aiimprovements-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/aiimprovements-common.toml",
-      "sha256": "08a9f7c6f63bd35d49b15fa5bccd8cdf667f21af0c9a8cb2ab5998eb598ee7c3"
+      "sha256": "d65113ea15e814463b1f477b0cebcc98dfe06a5d3f7100e3bacd414c7cb391ec"
     },
     {
       "path": "config/alltheleaks.json",
@@ -679,7 +679,7 @@
     {
       "path": "config/appleskin-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/appleskin-client.toml",
-      "sha256": "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
+      "sha256": "28c6ad7570268b02ec6f73fb7c39c49ecf90f0697d0db9447899e8aa96285200"
     },
     {
       "path": "config/armorchroma.json",
@@ -694,7 +694,7 @@
     {
       "path": "config/badmobs-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/badmobs-common.toml",
-      "sha256": "848a9347fc03b01ebd749caac81e4e53a54704068dadd2d347a6a426d6bd1fe7"
+      "sha256": "22201cd666fffbd2f491dc8fe06cdb0418781cf2b69c5c9e0bc3d45589d085b5"
     },
     {
       "path": "config/badoptimizations.txt",
@@ -704,32 +704,32 @@
     {
       "path": "config/balm-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/balm-client.toml",
-      "sha256": "4719b58de048b9b8666d2d5f3b880361a5bef0419420804355e987d96fa9e9e1"
+      "sha256": "d6fe31956b9b29b35ff0bf93884a6a66ac7300af620d20414a85d8f0004a62a2"
     },
     {
       "path": "config/balm-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/balm-common.toml",
-      "sha256": "6624945ea96137093a33fccd8ca6a5f62f1eeca1c41e3dcd067d0665364ed6cf"
+      "sha256": "925381a53e3d7d97737b10ba472d5c4c38a38fbae84a19a2390e90490b685e5f"
     },
     {
       "path": "config/betteradvancements-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/betteradvancements-client.toml",
-      "sha256": "2c5eba79cde20bd1658a43dc0527e5d45b2e462d2f065e228527eee8513446be"
+      "sha256": "caca7ec27174c71dfcaabc93724a2281950df979cfd6b7a40c5557c75e15438f"
     },
     {
       "path": "config/betteranimationscollection-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/betteranimationscollection-client.toml",
-      "sha256": "1e2803bc0766460c8fcd044d55f18041ff8d10d93393c68442f618409e441af3"
+      "sha256": "c293c99222bddf5999ef104d1399ab13a2de4a2ae14d59033d72c288609ec6b5"
     },
     {
       "path": "config/bettermodsbutton-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/bettermodsbutton-client.toml",
-      "sha256": "1200679c101a9c6c1bf42707661257a64800c611258d20eb88243983acdc61ea"
+      "sha256": "9856e8741e53b2139364facd9559ad2f33376026c1fabbc0b06375dba42c0d37"
     },
     {
       "path": "config/betterpingdisplay-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/betterpingdisplay-client.toml",
-      "sha256": "164836730c41628abbd6a1cdc3724c3766d8204d57caa18ec31d1f90472d9326"
+      "sha256": "3cef81480f204e582b4578dc4d8657bc90a814ea79a9d7920e220cd599fdb5b3"
     },
     {
       "path": "config/biomesoplenty/biome_toggles.json",
@@ -739,12 +739,12 @@
     {
       "path": "config/biomesoplenty/gameplay.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/biomesoplenty/gameplay.toml",
-      "sha256": "c48cf5d4b895aae33a2e757aa7b46768d3c30b93f7f09c7a2a3156d5622ec0f1"
+      "sha256": "4d2c61e691eb5e07dbea9c8dd3b03073911d01558ff741073561b5b4328f87fd"
     },
     {
       "path": "config/biomesoplenty/generation.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/biomesoplenty/generation.toml",
-      "sha256": "c32c97b7523e451203380538fd8e32e34a4da7b221850e32261652bdebd86749"
+      "sha256": "04a22ff8891b6d52fbb633e77de4085b91704a1f5baf11957891d83f490bc375"
     },
     {
       "path": "config/brandon3055/CSG/Config.json",
@@ -789,7 +789,7 @@
     {
       "path": "config/clienttweaks-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/clienttweaks-common.toml",
-      "sha256": "795f2adbc267ad36ab489bbc4ab915c4cf98d6eb19f8e126479adba95179011b"
+      "sha256": "351f584fdf96d32b839d488a6697bbc14a72e649076d2a3ae33eacde0eaa4485"
     },
     {
       "path": "config/collective.json5",
@@ -799,7 +799,7 @@
     {
       "path": "config/configured-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/configured-client.toml",
-      "sha256": "a823c528792d2fda677b9a05956a8c609b6279386b6b4b840d992fa43b931698"
+      "sha256": "fded2b62bfa868e8f23007991e6f192a08f7d73c87ebd34f10a5b08bf1c26ff0"
     },
     {
       "path": "config/connector.json",
@@ -809,7 +809,7 @@
     {
       "path": "config/connectorextras_energy_bridge-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/connectorextras_energy_bridge-common.toml",
-      "sha256": "4075f057d848f2a33f0bff9f44cce49f8d8340001d7b2afe3431ba1d999c4400"
+      "sha256": "a4d9eeb8806752eadbaf17d3072d1be28c508943814c5c14e2b85f936406758d"
     },
     {
       "path": "config/corgilib/announcement_config.json5",
@@ -819,7 +819,7 @@
     {
       "path": "config/CoroUtil/General.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/CoroUtil/General.toml",
-      "sha256": "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
+      "sha256": "da41baa38cd86e7388841af4095cb06b9f6f3a1c883cedfe6f0632ea129f4f06"
     },
     {
       "path": "config/crowdin.txt",
@@ -829,17 +829,17 @@
     {
       "path": "config/curios-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/curios-client.toml",
-      "sha256": "1ef1554c5d95b01f66c9c9f1f6236a473d6efd06652d47ca90fab281a8bb8431"
+      "sha256": "20287210df8f37e8c27d539886667b1240fc4e02509317c966f807c81ed18847"
     },
     {
       "path": "config/curios-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/curios-common.toml",
-      "sha256": "5fe808869d46a4b80e1191fbe40f40a4d63987beda0eaeb2d89b909a990ea2ea"
+      "sha256": "541ee90994c1cf3d4e132df2ac3ff74004bc3952d3914ae843b5089a4dda8a95"
     },
     {
       "path": "config/curios-server.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/curios-server.toml",
-      "sha256": "31818944254f689e486489e6ca4fb63a8a409e099e5f3ef99bab39c4d6e8008a"
+      "sha256": "c6b3ceb80bb8fba4e7956961abc063e76eb399a098d4227061afd540c1c3a72f"
     },
     {
       "path": "config/custom trades/armorer.json",
@@ -974,7 +974,7 @@
     {
       "path": "config/cutthrough-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/cutthrough-client.toml",
-      "sha256": "2dfca01b0ad9942ed5c6cede6fd043ca4adf912f5edee1857a39216f461b4a3b"
+      "sha256": "231346cf3be1c1e95c20bfdf92ee7069afdeca75a929c55567291d2d3567b530"
     },
     {
       "path": "config/cvtGlobal.json",
@@ -984,12 +984,12 @@
     {
       "path": "config/defaultoptions/keybindings.txt",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/defaultoptions/keybindings.txt",
-      "sha256": "a16e6b4e6aaa0e10130feec81edaedd89d51584077c2281aa5f7db5095eefbda"
+      "sha256": "8888fc3a5d88ae29d8f00f8d10a67732da237b074bbc1bb9fb29d244c6d98b46"
     },
     {
       "path": "config/defaultoptions/options.txt",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/defaultoptions/options.txt",
-      "sha256": "f770abbd9c991bd09f79403f6c9d1225fc89508a4f2eef243178897c065f930b"
+      "sha256": "2119f2cdba40047b98726eb96328dfdf751d5b7bf2113564bf2dce27f9054891"
     },
     {
       "path": "config/defaultoptions/servers.dat",
@@ -999,7 +999,7 @@
     {
       "path": "config/defaultoptions-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/defaultoptions-common.toml",
-      "sha256": "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
+      "sha256": "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
     },
     {
       "path": "config/difficultylock.json5",
@@ -1024,27 +1024,27 @@
     {
       "path": "config/durabilitytooltip-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/durabilitytooltip-common.toml",
-      "sha256": "bd69f7143602ac95d8be27bd3829364b7858989ac802c204f45027879afb9b9e"
+      "sha256": "da1f2a174006ebd56e5fce699fb2088dafecbdc2b18fe77af3fd844c28d541e4"
     },
     {
       "path": "config/dynamictrees-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/dynamictrees-common.toml",
-      "sha256": "b61faa62c0e824d50a795559acab29d426cf3d13cb06a69baa3f55096b4fd3c8"
+      "sha256": "d9c3c41f635217982bfd08c55a241f9998264d2d42924aa2379c715cfe0fd5dd"
     },
     {
       "path": "config/dynamictrees-server.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/dynamictrees-server.toml",
-      "sha256": "0bd6f6240fc2640380fab090334586a19d9b34c999a531a3463894be17a018e4"
+      "sha256": "409d8a78953fe6c224ad9395ebd63ad56f174fbcc9f5284da3c2fde5e897645c"
     },
     {
       "path": "config/dynamictreesplus-server.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/dynamictreesplus-server.toml",
-      "sha256": "bfaefb90f871e4dc007bd7ec4b70a9276e5fb8eabdc22e29a1d6466917a0de11"
+      "sha256": "9237dfc81edda4e01cff9605cd5f5ac61f81c106b62a17201d8b52c1e7893d8b"
     },
     {
       "path": "config/dynamic_lights_reforged.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/dynamic_lights_reforged.toml",
-      "sha256": "f6e6e9b80a3d95639a0cf81f53bd6fdd2b9064e56124025fbd7cb5731fcfd253"
+      "sha256": "d51cfa73ad1f160a4bf14a7fca90ab6f8dadb8dee52e240d3190193b9e954bc4"
     },
     {
       "path": "config/embeddium-fingerprint.json",
@@ -1064,7 +1064,7 @@
     {
       "path": "config/embeddiumplus.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/embeddiumplus.toml",
-      "sha256": "1e2b600064c4690dd7345843afea9745a03ae5968a8eca6006e3a97b96d59de1"
+      "sha256": "3a128a5d2bff2fcb78ebf2a89deac7b8c1953bf8254ffccbc11742adffaa0703"
     },
     {
       "path": "config/emi.css",
@@ -1144,7 +1144,7 @@
     {
       "path": "config/fabric/indigo-renderer.properties",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/fabric/indigo-renderer.properties",
-      "sha256": "4412c5dc14160e3978450776df29e6eba532f620f878ff99d79bbec864290237"
+      "sha256": "e4f4f56f172329d4cce37c049fae77a5267909305aeff973251d3d7aef6446ed"
     },
     {
       "path": "config/fancymenu/assets/background.png",
@@ -1169,12 +1169,12 @@
     {
       "path": "config/fancymenu/assets/splash_cn.txt",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/fancymenu/assets/splash_cn.txt",
-      "sha256": "a7340b476a8ccc0caa553f74de3bcb89938b9ca323d51fdfbfbab42883edcd56"
+      "sha256": "0499ad7062a6e5fe8242ceda01daac9b9e376cfdbf8e691a5d7e9544bb538c57"
     },
     {
       "path": "config/fancymenu/assets/splash_en.txt",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/fancymenu/assets/splash_en.txt",
-      "sha256": "774d8779f2c539b125d3439602dcdc6d456ffb27b7aa7db49b9b76b9c0251e3f"
+      "sha256": "3da3ea2dff3ea88262f59c8bb590def9da6c207fb39025ec1045417c7332b1d5"
     },
     {
       "path": "config/fancymenu/assets/title.png",
@@ -1279,7 +1279,7 @@
     {
       "path": "config/fancymenu/panoramas/ZombieInvade/properties.txt",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/fancymenu/panoramas/ZombieInvade/properties.txt",
-      "sha256": "ed06129068d0dd44f05710d9d618d3dfe6af03ba1eef7b398443b7df4175253f"
+      "sha256": "36f2d615a738a98369a26a4a3cd143665e09a8fa4734619047b7b36944fe067f"
     },
     {
       "path": "config/fancymenu/ui_themes/dark.json",
@@ -1299,22 +1299,22 @@
     {
       "path": "config/fastload.properties",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/fastload.properties",
-      "sha256": "289e15636698fa2ab11a585afa090d67395b3ad74374187ae0d26f82db2fb561"
+      "sha256": "15b2d614b3052d650e12f75355a3057ad6b5a9721ab5a13428be8cbb3da3c0ad"
     },
     {
       "path": "config/ferritecore-mixin.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/ferritecore-mixin.toml",
-      "sha256": "b9eea4056834db25b7de85df4aeb5a4d8b2350855032c8df369173afbbacd297"
+      "sha256": "ef91271a546b33c92971d7d9d6eb8b4eb7b82d331fb1ade170c68c32ae48f122"
     },
     {
       "path": "config/flywheel-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/flywheel-client.toml",
-      "sha256": "91830a62c24898b197ea5a244924e8b9388bd72c50e4ba4e91efa21264168716"
+      "sha256": "ee81d1578667e2c869c6f266c0564e952433f0a0e80a80ae84492d11f6a9609d"
     },
     {
       "path": "config/fml.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/fml.toml",
-      "sha256": "ce8504c3bbde4ddea0932a16513882e66f3e9f5e3e23d585503c3931e481ad89"
+      "sha256": "981f66afc4930f459290b0b2b25488e368ed3aab86f8d0d528811c1b719d0dcc"
     },
     {
       "path": "config/fogoverrides.json5",
@@ -1329,67 +1329,67 @@
     {
       "path": "config/forge-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/forge-client.toml",
-      "sha256": "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
+      "sha256": "a8448518860cd8b542dadf75521bfab981451775212ee1b51ddc646d998f9311"
     },
     {
       "path": "config/forge-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/forge-common.toml",
-      "sha256": "a440d2a7ce939ef3c462475555a9a188263aebdbf13db600de3f01d9d312970c"
+      "sha256": "8a4a66052998138456f09c8871cbd4c29c864932415262ed5ee837e743597a7e"
     },
     {
       "path": "config/forge-resource-caching.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/forge-resource-caching.toml",
-      "sha256": "acfdb749a28106463b96980100a7e542b0b2bc3f9c9464196e0765a4f1c39061"
+      "sha256": "ed2512a6396ea7446a5e4bb7d26b18021c1ae356f3cb13caba4043ad77a31e9d"
     },
     {
       "path": "config/forge-server.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/forge-server.toml",
-      "sha256": "e2c32c27453033ef3910d5b6a24ae1a8c1fd224c2ac0a97388d5aa27a6a00ad1"
+      "sha256": "56196ac767c162f0c40e1d1bdcd088c94fd558302532927da36d57b96294f8f7"
     },
     {
       "path": "config/global_packs.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/global_packs.toml",
-      "sha256": "027a5b42e69ea8c621c003b79d2f2a5157f02cf534e09b3a0a6be86760e7c30d"
+      "sha256": "3c9aa129c17d271fddde38316e05ee7350ca1ceea4d5c9bb2354d3ea99b20ac0"
     },
     {
       "path": "config/gml-script-mods.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/gml-script-mods.toml",
-      "sha256": "dc9b0f9c9c29949bcb91cebb2bcdc111a7d99bee1d2b2ea168f2edbc7b9a1ba6"
+      "sha256": "e2efc8f94eafa0528d995a427040081180d9a1063550b3723fb35c392411651a"
     },
     {
       "path": "config/gravestone-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/gravestone-client.toml",
-      "sha256": "0f7657373c8cccc3e9f11a79533c0c85c84e68762b65e5c6f9728ca9226873d3"
+      "sha256": "25d84c998664dc4aea1c5dd2ae85f25088b517082b74ad44253f3b09eb40fa94"
     },
     {
       "path": "config/gravestone-server.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/gravestone-server.toml",
-      "sha256": "8ef6a36324957073a8703487f336af2ef30fe9247a94a43111db1252d4184c7f"
+      "sha256": "cdf1f2ed8c73d3b545a7202d39efa986eb0d911e82d1ef164a442cc9afd07541"
     },
     {
       "path": "config/guardvillagers-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/guardvillagers-client.toml",
-      "sha256": "ff86d91694659f1fc9cc4c9c8a360d933ec609bf73a9911c066e56211a38066d"
+      "sha256": "008acb656603a61de4a77736574fae9866851389a585ec8cdfe1f15cd50ccc62"
     },
     {
       "path": "config/guardvillagers-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/guardvillagers-common.toml",
-      "sha256": "af004fc90b60ee5ba32242a10f2569ae1f0ffa89a7445c053e894a1e7573ac50"
+      "sha256": "266e598d3e575df9726134566a50362f33fa06bb9ff0f66b59e8cbb155842cb8"
     },
     {
       "path": "config/hardcorerevival-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/hardcorerevival-common.toml",
-      "sha256": "8f4010f67eb1e46115b7bb2bde3f6cc539df2da79d3cdd7b9bd44e69ead2c75c"
+      "sha256": "f3fd736be4132815e973fa08106e3d981bc027e5d2112122e7f8a09a4ab4a253"
     },
     {
       "path": "config/hide_key_binding-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/hide_key_binding-client.toml",
-      "sha256": "73c22ec9825f85047065bbbaaa54ad57c38af9692e6b7810581b9699da393b1c"
+      "sha256": "4728271b7d113b34e0ce8557d425fcadd2f2e0907690d5970a07e759a67f0399"
     },
     {
       "path": "config/imblocker-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/imblocker-client.toml",
-      "sha256": "c7e4bc31903bd59abaa1fd48edb0f0c09365933c5f29729e299148a6a5fdc0f8"
+      "sha256": "8fdc61cf2bfdcce4c7fd16bc716ab7c21584d9d68f6efc22fef71c1924ba4844"
     },
     {
       "path": "config/imblocker.json",
@@ -1409,7 +1409,7 @@
     {
       "path": "config/inventoryhud-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/inventoryhud-client.toml",
-      "sha256": "c9d3c527a73b600ea7a8b1c96571ddb62f12e8d0826b0a3f6cb04da6256aa9ff"
+      "sha256": "3541dde66bd26625f0e545d865c85d74e871ff18b5e859fefe2610b44cdad8e6"
     },
     {
       "path": "config/inventoryprofilesnext/inventoryprofiles.json",
@@ -1439,7 +1439,7 @@
     {
       "path": "config/ironfurnaces-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/ironfurnaces-client.toml",
-      "sha256": "48577ffa1b3945d366f3fc73dfb86a6cc479419b7b629cd925722fb79f43c7ce"
+      "sha256": "525ac342f2eee7d23d46b68e92b6d8dbad76ad2c630dcc4663b5e2906d322348"
     },
     {
       "path": "config/ironfurnaces.toml",
@@ -1484,7 +1484,7 @@
     {
       "path": "config/jecharacters.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/jecharacters.toml",
-      "sha256": "14f14763f026ece314bd3caa1302f0910d34d68370b0ea6de27ca59960f2c817"
+      "sha256": "db1fdd1a26060b72dd5126b639b763be17ec9e6b1dbb8434e208c040c981a140"
     },
     {
       "path": "config/jei/blacklist.cfg",
@@ -1494,32 +1494,32 @@
     {
       "path": "config/jei/jei-client.ini",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/jei/jei-client.ini",
-      "sha256": "30503916553a0a302f433abd1c99a54303312cf426b7a6b49d0dff0461c82aba"
+      "sha256": "34588df52d85317d1678a70c5bcfd905833cc7eb3b6077c500789fd2248998d5"
     },
     {
       "path": "config/jei/jei-colors.ini",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/jei/jei-colors.ini",
-      "sha256": "5f37aacd70460fdc2631ff45e98e8a2ce4e52d3e9a50917edf40eeed1236952e"
+      "sha256": "30ffef1681a9b0255e65a756406f85b1cca8b0bb3c0fab357c2727e325401bd0"
     },
     {
       "path": "config/jei/jei-debug.ini",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/jei/jei-debug.ini",
-      "sha256": "ee9bb0f0f8465629951fe9a532f3ebe3327671a12d4cc6395860d7f7494b970b"
+      "sha256": "44e73ad4423c5bf0381da8e934861ac552cca4a12d4a007801cacf6eb85d12e9"
     },
     {
       "path": "config/jei/jei-mod-id-format.ini",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/jei/jei-mod-id-format.ini",
-      "sha256": "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
+      "sha256": "07052785400b48d3757dbbcfff0b50899fbaed1ac54ea09bc9024ea7f73b7644"
     },
     {
       "path": "config/jei/recipe-category-sort-order.ini",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/jei/recipe-category-sort-order.ini",
-      "sha256": "b3d30aee35a7a6344104e5c45da74936991157a23987f6770c0f0feb85075426"
+      "sha256": "1078eb7a7944c29868cd6389e95404eaf548c4b3daa2306527ff8dad365484cc"
     },
     {
       "path": "config/jei-server.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/jei-server.toml",
-      "sha256": "9736d42f228f95c96c96b90b79b0988931caf7e1b6d455c982c1441371031979"
+      "sha256": "586dab73e6d084c5eac7890ccc6196b2f634d852736ab44708e6d4ac9f72fcb2"
     },
     {
       "path": "config/kiwi-client.yaml",
@@ -1564,7 +1564,7 @@
     {
       "path": "config/lostcities/common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/lostcities/common.toml",
-      "sha256": "db961ee25b2aab63d16c00ad19a245a5f10a32baf38985894e93d946e9f85e19"
+      "sha256": "971b812f3b4f1cbd962c42f74188e744695509e61b048444b3c26135682576e2"
     },
     {
       "path": "config/lostcities/profiles/ancient.json",
@@ -1654,7 +1654,7 @@
     {
       "path": "config/lostcities-server.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/lostcities-server.toml",
-      "sha256": "5154c92b599a9b02e30439256d408783e2682952ecd2fe789e9aeaf9915a4cc2"
+      "sha256": "a5608ff9cf61f0b3b886889dc59e798d98ec757028b83f009457c8505094b80b"
     },
     {
       "path": "config/lsp.json",
@@ -1664,7 +1664,7 @@
     {
       "path": "config/modernfix-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/modernfix-common.toml",
-      "sha256": "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
+      "sha256": "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
     },
     {
       "path": "config/modernfix-mixins.properties",
@@ -1679,7 +1679,7 @@
     {
       "path": "config/neat-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/neat-client.toml",
-      "sha256": "914374442610c2295894b13370d8f7d2b220181df5a3ed162a8ff9f9c1ea872b"
+      "sha256": "9748d37bb4d4c34fa4e5e21520ff524debb54827d14c67ccb77b25e4033392c8"
     },
     {
       "path": "config/necronomicon.json5",
@@ -1729,17 +1729,17 @@
     {
       "path": "config/oculus.properties",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/oculus.properties",
-      "sha256": "7451d0e8bf0783bf4d856c6b2cc13558bd37d90258876cc29709e22c8cc0915b"
+      "sha256": "a4d9ff69f3df363a265b7e4b23e43385b3d45d7ba4c2bb4ab3eefb1d9930cd16"
     },
     {
       "path": "config/omo-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/omo-common.toml",
-      "sha256": "6478a6cd272b94920ee0dfdad1e27abe4541df4456e28efdc8f87b6680c01b42"
+      "sha256": "fd8569dfc9771f34b6f510d3f8c6f3a3fcf2bb324a06ef238fc0d51e5ca37d25"
     },
     {
       "path": "config/openpartiesandclaims-server.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/openpartiesandclaims-server.toml",
-      "sha256": "dc21a0a2c7f9898e9ce082625e52d62b4235012f988909420c96549ab780cb9d"
+      "sha256": "1f3525586d3075bce81ec738f554edacf1c19763f47402dd943b51795baef95b"
     },
     {
       "path": "config/oreexcavation/block_groups.json",
@@ -1759,12 +1759,12 @@
     {
       "path": "config/oreexcavation-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/oreexcavation-client.toml",
-      "sha256": "1aa58ad8d66998f21b6ac861f1cc72454cd8a5ef81e7eb6e59db5f50d25ac3be"
+      "sha256": "48a91ffffb310da91d809f9468941572d943b14edc45a12aeec6e3f7051beb99"
     },
     {
       "path": "config/oreexcavation-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/oreexcavation-common.toml",
-      "sha256": "fdac4b01c249b70fa4ceb3bfeb215ee81829dae27f0131c46f19df8bcee0cc9e"
+      "sha256": "d32e08071c30f7c2c43bef83726f63f6676ec246e230c1cd3a002c221b568652"
     },
     {
       "path": "config/panorama.json",
@@ -1774,7 +1774,7 @@
     {
       "path": "config/patchouli-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/patchouli-client.toml",
-      "sha256": "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068"
+      "sha256": "3b6236845f6a5ff8804487b63b0d74305b91316dc9a008362838607b0be3bd8e"
     },
     {
       "path": "config/physicsmod/physics_animations_client_config.json",
@@ -1814,12 +1814,12 @@
     {
       "path": "config/placebo.cfg",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/placebo.cfg",
-      "sha256": "b38269d3fa35f0467ac05b779812c94b10010e68a89a38d532cd1640a0d7faea"
+      "sha256": "b8a91b3a41d1876b387ad5aaa1889fc209ce62b086d6c856cc059b0c0646e75b"
     },
     {
       "path": "config/ponder-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/ponder-client.toml",
-      "sha256": "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
+      "sha256": "7508f3f5ceed80c7c606d01ee2dc93e2c72a8afa199ccb691fc5225c894d5bbd"
     },
     {
       "path": "config/presencefootsteps/userconfig.json",
@@ -1829,17 +1829,17 @@
     {
       "path": "config/quark-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/quark-common.toml",
-      "sha256": "56f8b57cb4fc2722449d1da4aadfe79887f6664ef9893f47c14680a83b72912e"
+      "sha256": "49f8669cfa9d1d3a10ab75b7f7a17a890544dfd545902f9797eb7b41b986f109"
     },
     {
       "path": "config/rrls.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/rrls.toml",
-      "sha256": "88be030024a05dff985dc71cdbc10d8feefe50a3458358b833993024a0087184"
+      "sha256": "71129f5c01e20f2c35d442833745de1de64c1daa3981caac35362e04d37657bd"
     },
     {
       "path": "config/rubidium_extras.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/rubidium_extras.toml",
-      "sha256": "e98c8bdc6c8a8857201032d713b19982003a8afa342a646854384c62012b6b04"
+      "sha256": "fbbfee5983caa986eb1f1ced17d501f7523070e738b1ab590eb8895e93acb557"
     },
     {
       "path": "config/skinlayers.json",
@@ -1874,62 +1874,62 @@
     {
       "path": "config/sodiumdynamiclights-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/sodiumdynamiclights-client.toml",
-      "sha256": "21d25844814f6a7d0427981fee2b6d96cb985330d97a2c4bbc504d0c2a802a14"
+      "sha256": "347434fce931147ef1b31896190829a06a857a561eab04e28354af67f3894564"
     },
     {
       "path": "config/sophisticatedbackpacks-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/sophisticatedbackpacks-common.toml",
-      "sha256": "67c90bbdfca3c7488d9496df0af4d1be7483634a0c4d179281d1c7c91ef32e7b"
+      "sha256": "101b2c3afacf80b07df488735591d32e69ada873f399a6ca66bf077ddfee1ec4"
     },
     {
       "path": "config/sophisticatedbackpacks-server.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/sophisticatedbackpacks-server.toml",
-      "sha256": "7b10c74c7fb184eb734e573457280745b4abe0be10557dfbc93bc60ac9d355bc"
+      "sha256": "f7ebc9e8716725cc3da668bd98f1c851d9d07eca2f9c7d205d106ae70a8bab87"
     },
     {
       "path": "config/sophisticatedcore-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/sophisticatedcore-client.toml",
-      "sha256": "3175ac14ac1da55ba706d1f0321c0b5620cd968a381e60323b283778e7b6d9e6"
+      "sha256": "4d77564fb4509f9ee615aab4d07a0d524dc63b6671c8afdb60b194f8529bac65"
     },
     {
       "path": "config/sophisticatedcore-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/sophisticatedcore-common.toml",
-      "sha256": "8acf5162a0ade7b6d798cde8a7829a44c3aca64d8be85ab53027db91ed584510"
+      "sha256": "b4e008fb336c4645e2ef5eca713645391602a69288338fccbbbae74a567f1e51"
     },
     {
       "path": "config/sound_physics_remastered/occlusion.properties",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/sound_physics_remastered/occlusion.properties",
-      "sha256": "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb"
+      "sha256": "cb08fad009eefaaf888bb4324c351ac426a49fb0db7cb75c4fddbcdcf8d8f414"
     },
     {
       "path": "config/sound_physics_remastered/reflectivity.properties",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/sound_physics_remastered/reflectivity.properties",
-      "sha256": "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
+      "sha256": "bc029afc200ba2fba522a27245d65c8e5db0f20cd0eddd5873a316054d962923"
     },
     {
       "path": "config/sound_physics_remastered/soundphysics.properties",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/sound_physics_remastered/soundphysics.properties",
-      "sha256": "00d89b731ed429cc0ee3c106ccc3947e31b46335fa8829758c5f3296285e9cc6"
+      "sha256": "04c369b4b1ef3019c67bdd2182d8b3719e4314e7ebdbd475ce09fcbc8da92355"
     },
     {
       "path": "config/sound_physics_remastered/sound_rates.properties",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/sound_physics_remastered/sound_rates.properties",
-      "sha256": "2a501428b6c41b73f6ec21692cfe19ec04056b8114e2845ea1ec934646eb9151"
+      "sha256": "29ae9041a4accfa35e9db410119fdae9c27d25ff74af787f1c9e6b9d831251b7"
     },
     {
       "path": "config/spartanshields-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/spartanshields-common.toml",
-      "sha256": "065a53578bc9ffd9501d2783132b222dfb85ab44868d9d262f80ea9566891881"
+      "sha256": "7c951d4959fc1830e0be9f91d157307ed63266b3535a25f9e1845c446b1d945f"
     },
     {
       "path": "config/spartanweaponry-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/spartanweaponry-client.toml",
-      "sha256": "064b15876551fd730e13fac00062fd10d51ce8493fdea810f97b094be2fcb01a"
+      "sha256": "a07ef1146c33cb8d479ca6d53078a3651955e5d20345f717b0730009252a51fd"
     },
     {
       "path": "config/spartanweaponry-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/spartanweaponry-common.toml",
-      "sha256": "937de3fe5edc1c5439619ae10d00e91b5d7acc5d2df8c7181589f5a7234a3a56"
+      "sha256": "128daf832e79841bd9ddc623306b50982d90f3e0e486c556ab5727caa20ddfaf"
     },
     {
       "path": "config/starterkit.json5",
@@ -1939,42 +1939,42 @@
     {
       "path": "config/taa-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/taa-common.toml",
-      "sha256": "c1e853d9148e31894b5e45ab8d06bbac8567abb88410d265f53ebf962afdf187"
+      "sha256": "79e09ca8d0b4923df3e484f33a611b24829c743a5e80fa7451db6eb194e5860d"
     },
     {
       "path": "config/tacz-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/tacz-client.toml",
-      "sha256": "b9272e528fc128e13fe5505e4aa840f22f6aaabd5f0d3db914359cd832bf5aaa"
+      "sha256": "2175d1c653423816e4b4e8fcefab8ea7a5940b29e02db9d76c1e81c3ec81217d"
     },
     {
       "path": "config/tacz-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/tacz-common.toml",
-      "sha256": "e0291dcd59f4b56979c63ed7c2a290b5c1ca80958a9d90c282250ede3c4b7b89"
+      "sha256": "20229ec6852107d99218284f0f4aea63dbd86c1ba082b2d6a53e18a84da2786e"
     },
     {
       "path": "config/tacz-server.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/tacz-server.toml",
-      "sha256": "f8c4e78147eb6d51772fee54166e04713c61f83b2376845438f0e5dac7c2ace8"
+      "sha256": "4de30eca4aabb92ca5c761296416209a7c49ccf60a71cd79e4b1994532f36a63"
     },
     {
       "path": "config/taczaddon-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/taczaddon-client.toml",
-      "sha256": "7aaef73c0301ccdfb0da0a33f6c4a2532d3292a47a38d8ff6eb193cc72112341"
+      "sha256": "d62ec28dd6679a2aafb9161f9393b8b3b2b3041b430f9df43ef4616359da160b"
     },
     {
       "path": "config/taczdd-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/taczdd-client.toml",
-      "sha256": "715b8e894f72756eefa525667ff14fd3e2746c4e448def5bbd23a913abe55735"
+      "sha256": "fd40bc4a337c6807ec26b34455c3556e883c99f9749d5b5860e0f580099942fa"
     },
     {
       "path": "config/terrablender.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/terrablender.toml",
-      "sha256": "11ef4c2666fa094b456310710c2b5cb8babbd71982d4d187c9a80ad4011d8014"
+      "sha256": "c73292a81a8409d74edb12b0bb9226bda03f39e11afc8abfe6bff52cc30ef480"
     },
     {
       "path": "config/toastcontrol-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/toastcontrol-common.toml",
-      "sha256": "0119c4c86464a92d9473faf60eb9f4d38e9d3e6fd4fd0cc0183ac7854d2f1eb3"
+      "sha256": "57fd9f1786b193d7864b753cf1bcdd4fd4d57ce7e621deae880523c2eff5e77e"
     },
     {
       "path": "config/tradeuses_text.txt",
@@ -1984,12 +1984,12 @@
     {
       "path": "config/tslatentitystatus-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/tslatentitystatus-common.toml",
-      "sha256": "d1f7e3771687176a4584cca35464f29886918b61ec5ed0b552728487fe642346"
+      "sha256": "7dff46be4b9e28327a876e86f2316d1f4c75e0b4354b6e9c3a4734e3fc3c5eb2"
     },
     {
       "path": "config/visualworkbench-client.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/visualworkbench-client.toml",
-      "sha256": "a52f2827f894134126d25037480685b8964c8e384e61bb0ee419e04d6d945f1a"
+      "sha256": "f1721b2e7a946ea9c0edae1405ef435f4d74cc6dc7baace2cd829420bab10c8f"
     },
     {
       "path": "config/visual_workbench.json",
@@ -2004,12 +2004,12 @@
     {
       "path": "config/xaerominimap-common.txt",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/xaerominimap-common.txt",
-      "sha256": "771a844d13ab6c2ff99f14b8fd912d02c55a1a4104361692b740c3e596084f6f"
+      "sha256": "b410746ddef0f7dd5f1d860ef3fcd6ad29c10988abbf6281181cb9c3acb628ca"
     },
     {
       "path": "config/xaerominimap.txt",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/xaerominimap.txt",
-      "sha256": "ef6ff00d596465cb8104a1b0f549857a4b6458b785398c0ccad514bb591112a9"
+      "sha256": "8ae17edc0cc8ba9cade58696183e9ea6187bf3ff46806d9e7687a5f03226d4fd"
     },
     {
       "path": "config/xaerominimap_entities.json",
@@ -2019,17 +2019,17 @@
     {
       "path": "config/xaeropatreon.txt",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/xaeropatreon.txt",
-      "sha256": "36a890045fce4aa69f1c550d5a49a62b336cbb7911a7afa6956fcce5d4d9dcb8"
+      "sha256": "8f416b1035da696f526b1cc83494f348616a6603f0091b6ec11ee84e1b70aa09"
     },
     {
       "path": "config/xaeroworldmap-common.txt",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/xaeroworldmap-common.txt",
-      "sha256": "f02ca95d7246bd4b9c7de895c46108fff42fd5fcf9d56816b7bdba821597b58f"
+      "sha256": "ab09b6171d1f5f9c15d3ea653be739b53bca6f88db1ec38ae80575143c4c68cd"
     },
     {
       "path": "config/xaeroworldmap.txt",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/xaeroworldmap.txt",
-      "sha256": "b640b238e8b42bbb60e61c20d264ac4f4bd4e3cf00b13c5ab28240a72545f3b8"
+      "sha256": "e7e7dee19d0ff44b0fe9e864917a70b1d5df0a4eb9bf94ebe3f7b898cbfaf44b"
     },
     {
       "path": "config/yacl.json5",
@@ -2039,37 +2039,37 @@
     {
       "path": "config/zeta-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/zeta-common.toml",
-      "sha256": "684816927033626b990f8e277a43c0e24f6ef650cb38f9fee935f974fffd7392"
+      "sha256": "b5ae0f1685b3136c29758855f06e1eb4fa9878ef78d25b7adcbcd88391074c86"
     },
     {
       "path": "config/zombieawareness/ClientConfig.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/zombieawareness/ClientConfig.toml",
-      "sha256": "159ca0c651a10c34dc82f6b8ab4f9f07785a8ec3ca7a3a9330f21fcce439fc91"
+      "sha256": "97ffa3854e27b7fac0de477bb55553676eb7fe1123bfcd89c0df7218f1de1dae"
     },
     {
       "path": "config/zombieawareness/Features.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/zombieawareness/Features.toml",
-      "sha256": "8db3af8a44ef9e63efdba3231b2291dd0eb473de17cc4d4ef322ec3d2b8f7a34"
+      "sha256": "02e058ca69ae8553239571387c80973f0a70cfd8e504d5e52dae7162edcc903f"
     },
     {
       "path": "config/zombieawareness/General.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/zombieawareness/General.toml",
-      "sha256": "6b306274c49248c8645f302f54f632204e097ed677036728015ac15f41f71d23"
+      "sha256": "5573378c8c21bc23b543f897b05ec69ae0a377d16fc903df294eb68c3f6bb56b"
     },
     {
       "path": "config/zombieawareness/MobLists.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/zombieawareness/MobLists.toml",
-      "sha256": "6054062789da3c35d85ba55d3fde1b3616bea504e84c43da28467cb8c807bf7d"
+      "sha256": "3009de064f8552220d1c2dc9aa0ad2c9dc9bd0a833d56a9631215eb97cc58b4d"
     },
     {
       "path": "config/zombieawareness/PlayerRulesAndLists.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/zombieawareness/PlayerRulesAndLists.toml",
-      "sha256": "e766740f523b7da0d0cdc9db47f6e69c16489509c6b5e1eee63742c295f5f508"
+      "sha256": "0c9cb7ce493414f2a4b846417db297b8c24ec9950e5e2630d1cfff387568f5ae"
     },
     {
       "path": "config/zombiegame-common.toml",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/zombiegame-common.toml",
-      "sha256": "28751c8060e958700efcb6231c7d9ca949d98c79d6be8c8d3492ade7e45f265d"
+      "sha256": "0b2435f7763a61ac27d86b7ba5be05c3f3e9c0df26e7157e4da12bc5ee09604a"
     },
     {
       "path": "config/zume.json5",
@@ -2099,12 +2099,12 @@
     {
       "path": "kubejs/config/client.properties",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/kubejs/config/client.properties",
-      "sha256": "35b5a79a92568b13f54721e4560baeb03bf86cc8f7967cad12107f9b440c36b7"
+      "sha256": "d6ebe316c3118e23faeeed7244a18d683f608c2a5444105a6bd24e29313bf281"
     },
     {
       "path": "kubejs/config/common.properties",
       "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/kubejs/config/common.properties",
-      "sha256": "126577d11cb5160a2f2d92f15b4e4e3b1a3e0929ca160f53fe292b3c11b07361"
+      "sha256": "787e8030cc5fa662c42d6190a576b28f29b974966dbdf8a713d5fa255550510c"
     },
     {
       "path": "kubejs/config/probe-settings.json",

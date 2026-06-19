@@ -1,142 +1,129 @@
-# 🧟 Apocalipse Z — Painel de Controle do Launcher
+# launcherz — conteúdo do launcher Apocalipse Z
 
-Este repositório é o "painel de controle" do launcher. **Tudo que você editar aqui
-muda no launcher de TODOS os jogadores** — sem ninguém precisar reinstalar nada.
+Repositório de **conteúdo** do launcher (não tem código aqui). São os arquivos que o
+launcher baixa pela internet em tempo de execução. Editar algo neste repo muda o launcher
+de **todos os jogadores** sem ninguém reinstalar nada.
 
-> ⏱️ As mudanças aparecem em até **5 minutos** (depois de salvar) e o jogador vê
-> ao **abrir o launcher** de novo.
-
----
-
-## 📝 Como editar (passo a passo, pelo site do GitHub)
-
-Você **não precisa instalar nada**. É tudo pelo navegador:
-
-1. Entre no arquivo **`launcher-config.json`** (clique no nome dele aqui na lista).
-2. Clique no **lápis ✏️** (canto superior direito) → "Edit this file".
-3. Altere o que quiser (veja os exemplos abaixo).
-4. Desça até o final e clique no botão verde **"Commit changes"**.
-5. Pronto! Em ~5 min está valendo pra todos.
-
-> ⚠️ **Cuidado com vírgulas e aspas.** É um arquivo `.json`: cada item termina com
-> vírgula, menos o último. Se quebrar, o launcher ignora e usa o anterior. Na dúvida,
-> use um validador: cole o conteúdo em https://jsonlint.com e veja se diz "Valid JSON".
+- **Propagação:** o GitHub serve os arquivos via `raw.githubusercontent.com`, com cache de
+  **~5 minutos**. Passado isso, o jogador vê a mudança ao **reabrir o launcher** (a config é
+  baixada no startup).
+- **O repositório precisa ser público** — se ficar privado, o launcher não consegue baixar.
+- **Repo de código** (separado): `EduardoVisgueira/minecraft-custom-launcher`.
 
 ---
 
-## 🔧 O que dá pra mudar (no `launcher-config.json`)
+## Estrutura do repositório
 
-### Nome do launcher
-```json
-"launcher_name": "Apocalipse Z",
 ```
-Troque o texto entre aspas.
-
-### Imagens de fundo (slideshow)
-1. Entre na pasta **`banners/`** → botão **"Add file" → "Upload files"** → arraste suas imagens.
-2. Depois edite a lista abaixo, colocando o **nome exato** de cada imagem que você subiu:
-```json
-"slideshow_images": [
-  "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/slide1.jpg",
-  "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/slide2.jpg",
-  "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/banners/slide3.png"
-],
-"slideshow_interval_ms": 5000,
-```
-- Pode ter quantas quiser (3, 5, 10…). Só copie a linha e mude o nome do arquivo.
-- `slideshow_interval_ms` = tempo de cada imagem (5000 = 5 segundos).
-- Use imagens **largas (paisagem)**, tipo print do jogo. Formatos: `.jpg`, `.png` ou `.webp`.
-
-### Textos da tela de login e botão
-```json
-"login_title": "Acesso à Zona",
-"login_subtitle": "Identifique-se para entrar na quarentena",
-"play_button_label": "ENTRAR NA ZONA",
+launcherz/
+├── launcher-config.json   configuração do launcher (textos, RAM, notícias, slideshow, modpack)
+├── manifest.json          lista de arquivos do modpack (mods/config/kubejs) com hash e URL
+├── banners/               imagens do slideshow da tela inicial
+├── config/                configs dos mods (servidas cruas e baixadas na instância)
+└── kubejs/                scripts KubeJS do modpack
 ```
 
-### Aviso/recado no topo (opcional)
-```json
-"announcement": {
-  "text": "Servidor em manutenção sábado às 14h!",
-  "type": "info"
-},
-```
-Deixe `"text": ""` (vazio) pra não mostrar nada.
+### `launcher-config.json`
+Arquivo principal — controla texto, visual e comportamento do launcher. Lido a cada
+abertura. É o que você mais edita. Campos na seção **Referência** abaixo.
 
-### Notícias
-```json
-"news": [
-  {
-    "title": "Bem-vindo à Zona",
-    "body": "Servidor no ar. Boa sobrevivência.",
-    "date": "2026-06-15"
-  }
-],
-```
-Pra adicionar outra notícia, copie o bloco `{ ... }` e separe com vírgula.
+### `manifest.json`
+Lista de **todos os arquivos do modpack** que o launcher baixa e mantém sincronizados. Cada
+entrada tem `path`, `url` e um hash (`sha512` para mods de CDN, `sha256` para arquivos
+servidos por este repo). Formato:
 
-### Redes sociais (aparecem como botões)
 ```json
-"social_links": {
-  "discord": "https://discord.gg/SEULINK",
-  "youtube": "https://youtube.com/@SEUCANAL",
-  "instagram": "",
-  "twitter": "",
-  "tiktok": "",
-  "telegram": "",
-  "website": ""
-},
-```
-Deixe `""` (vazio) nas que não usar — elas somem.
-
-### Loja
-```json
-"store_url": "https://sualoja.com",
-"store_label": "Loja",
-```
-
-### Cor do tema
-```json
-"theme": {
-  "accent_color": "#84cc16",
-  ...
+{
+  "managed_dirs": ["mods", "config", "kubejs", "resourcepacks"],
+  "files": [
+    { "path": "mods/exemplo.jar", "url": "https://cdn.modrinth.com/...", "sha512": "..." },
+    { "path": "config/exemplo.toml", "url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/config/exemplo.toml", "sha256": "..." }
+  ]
 }
 ```
-`#84cc16` é o verde tóxico. Troque pelo código de cor que quiser (ex.: `#ff3333` vermelho).
 
-### Versão do modpack
+- `managed_dirs`: pastas que o launcher **gerencia** na instância do jogador. Arquivo que
+  sai do manifest é apagado da instância (exceto entradas começando com `.`, tipo
+  `.connector`, que são dados de runtime e ficam intactas).
+- O launcher só baixa o que tem hash diferente do local — quem já tem o pack não rebaixa tudo.
+- **Não edite na mão.** É gerado (ver *Atualizar o modpack*).
+- Mods são referenciados por **URL** (hoje aponta para a CDN do Modrinth); `config/` e
+  `kubejs/` são servidos crus deste repo.
+
+### `banners/`
+Imagens do slideshow da tela inicial (`slide1.jpg`, `slide2.jpg`, `slide3.png`).
+Referenciadas em `launcher-config.json → slideshow_images`. Recomendado: paisagem 16:9,
+~1920×1080, `.jpg`/`.png`/`.webp`. Para trocar, suba a imagem (mesmo nome) ou adicione uma
+nova e aponte no config.
+
+### `config/`
+Configs dos mods (as mesmas de `.minecraft/config`). Baixadas na instância conforme o
+`manifest.json`. Mudou uma config do pack? Atualize aqui e **regenere o manifest**.
+
+### `kubejs/`
+Scripts KubeJS do pack (receitas, eventos). Mesmo fluxo do `config/`: editar + regenerar manifest.
+
+---
+
+## Referência — `launcher-config.json`
+
+| Campo | Tipo | O que faz |
+|---|---|---|
+| `config_url` | string | URL deste próprio arquivo. **Não mexer.** |
+| `launcher_name` | string | Nome exibido no launcher. |
+| `forge_version` | string | Versão do Forge (`1.20.1-47.4.10`), casada com o modpack. |
+| `login_title` / `login_subtitle` | string | Textos da tela de login. |
+| `play_button_label` | string | Texto do botão de jogar. |
+| `announcement` | objeto | `{ "text": "", "type": "info" \| "warning" }`. Texto vazio = sem aviso. |
+| `slideshow_images` | array | URLs das imagens da tela inicial (use as de `banners/`). |
+| `slideshow_interval_ms` | número | Tempo entre slides em ms (`5000` = 5s). |
+| `social_links` | objeto | `discord`, `youtube`, `instagram`, `twitter`, `tiktok`, `telegram`, `website`. Vazio = botão escondido. |
+| `store_url` / `store_label` | string | Link e rótulo do botão de loja. |
+| `news` | array | Transmissões: `{ "title", "body", "date": "AAAA-MM-DD" }`. |
+| `modpack.name` | string | Nome do modpack (vira o nome da instância isolada). |
+| `modpack.manifest_url` | string | URL do `manifest.json`. **Não mexer.** |
+| `modpack.version` | string | Versão do pack. **Aumente a cada update** (`2.4` → `2.5`) para o launcher sinalizar atualização. |
+| `modpack.forge_version` | string | Versão do Forge do pack. |
+| `ram` | objeto | `default_mb`, `min_mb`, `max_mb` (limites do slider de RAM). |
+| `theme.accent_color` | string | Cor de destaque (hex). |
+| `theme.background_overlay_opacity` | número | Escurecimento do fundo (0–1). |
+| `theme.logo_url` | string | URL de logo opcional. |
+
+> É JSON: vírgula no fim de cada item **menos o último**, textos entre aspas. Sintaxe
+> quebrada = o launcher ignora o arquivo e usa a última versão válida. Valide em
+> https://jsonlint.com.
+
+---
+
+## Tarefas comuns
+
+### Adicionar uma notícia (a mais recente no topo)
 ```json
-"modpack": {
-  "name": "Zona Morta",
-  "manifest_url": "...não mexa...",
-  "version": "1.0.0"
-},
+"news": [
+  { "title": "Evento de fim de semana", "body": "XP em dobro até domingo.", "date": "2026-06-20" },
+  { "title": "Bem-vindo à Zona", "body": "Servidor no ar.", "date": "2026-06-15" }
+]
 ```
-Suba a `version` quando atualizar o modpack (ex.: `1.0.1`). O launcher mostra que tem
-atualização nova.
 
----
+### Mostrar um aviso no topo
+```json
+"announcement": { "text": "Manutenção sábado às 14h.", "type": "warning" }
+```
+Deixe `"text": ""` para esconder.
 
-## 🎮 Atualizar o MODPACK (os mods)
+### Ligar uma rede social
+```json
+"social_links": { "discord": "https://discord.gg/SEULINK", "youtube": "", "instagram": "", "twitter": "", "tiktok": "", "telegram": "", "website": "" }
+```
+Campo vazio = botão escondido.
 
-Os mods (`.jar`) **não vão nos arquivos** — vão em **Releases** (mais leve e rápido).
-Resumo:
+### Trocar um banner
+Suba a imagem em `banners/` e, se mudou o nome, atualize a URL em `slideshow_images`.
 
-1. Na aba **"Releases"** (lateral direita da página do repo) → **"Create a new release"**.
-2. Em **"Tag"** coloque algo como `modpack-v1` e arraste todos os `.jar` na área de anexos.
-3. No seu PC, na pasta com `mods/` e `config/`, rode o **`gerar-manifest.ps1`**
-   (ele pergunta 2 links). Isso cria o `manifest.json`.
-4. Aqui no repo, suba o **`manifest.json`** novo e a pasta **`config/`**.
-5. No launcher, o botão **"Sincronizar"** baixa só o que mudou.
-
-> 💡 Trocou 1 mod? Re-suba o `.jar` no Release, rode o script de novo e suba o
-> `manifest.json` atualizado. Os jogadores baixam só a diferença.
-
----
-
-## ❓ Dúvidas comuns
-
-- **Mudei e não apareceu** → espere ~5 min e **feche/abra o launcher**.
-- **O launcher "quebrou" o texto** → provável vírgula/aspas erradas no JSON. Valide em https://jsonlint.com.
-- **Imagem não aparece** → confira se o nome na lista é **idêntico** ao do arquivo em `banners/` (maiúsculas contam!).
-- **Repositório precisa ser público** (não deixe privado, senão o launcher não baixa).
+### Atualizar o modpack (mods / config / kubejs)
+1. Atualize os arquivos: mods entram por URL no manifest; `config/` e `kubejs/` são commitados aqui.
+2. Regenere o `manifest.json` com `ferramentas/gerar-manifest.ps1` (no repo de código).
+3. **config/kubejs:** o GitHub normaliza quebra de linha (CRLF) ao commitar, então o hash tem
+   que sair do **blob commitado**, não do arquivo local — o fluxo do script já trata isso.
+4. Suba o `manifest.json` junto com os arquivos.
+5. Aumente `modpack.version` no `launcher-config.json` para sinalizar o update aos jogadores.

@@ -35,6 +35,7 @@
   ],
   "modpack": {
     "name": "Zona Morta",
+    "mrpack_url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/modpack/pack.mrpack",
     "manifest_url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/manifest.json",
     "version": "2.4",
     "forge_version": "1.20.1-47.4.10"

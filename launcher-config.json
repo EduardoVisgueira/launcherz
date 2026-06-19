@@ -47,6 +47,6 @@
   "theme": {
     "accent_color": "#84cc16",
     "background_overlay_opacity": 0.8,
-    "logo_url": ""
+    "logo_url": "https://raw.githubusercontent.com/EduardoVisgueira/launcherz/main/branding/logo.png"
   }
 }

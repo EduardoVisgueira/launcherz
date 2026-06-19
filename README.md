@@ -16,10 +16,11 @@ de **todos os jogadores** sem ninguém reinstalar nada.
 
 ```
 launcherz/
-├── launcher-config.json   configuração do launcher (textos, RAM, notícias, slideshow, modpack)
+├── launcher-config.json   configuracao do launcher (textos, RAM, noticias, slideshow, modpack)
 ├── manifest.json          lista de arquivos do modpack (mods/config/kubejs) com hash e URL
+├── branding/              logo mostrado DENTRO do app (theme.logo_url)
 ├── banners/               imagens do slideshow da tela inicial
-├── config/                configs dos mods (servidas cruas e baixadas na instância)
+├── config/                configs dos mods (servidas cruas e baixadas na instancia)
 └── kubejs/                scripts KubeJS do modpack
 ```
 
@@ -49,6 +50,12 @@ servidos por este repo). Formato:
 - **Não edite na mão.** É gerado (ver *Atualizar o modpack*).
 - Mods são referenciados por **URL** (hoje aponta para a CDN do Modrinth); `config/` e
   `kubejs/` são servidos crus deste repo.
+
+### `branding/`
+Logo do launcher mostrado **dentro do app** (ex: tela de splash), via `theme.logo_url` no
+`launcher-config.json`. Para trocar: suba seu PNG (recomendado quadrado, fundo transparente)
+e aponte a URL em `theme.logo_url`. **Atencao:** isto NAO muda o icone da barra de tarefas /
+area de trabalho — esse icone fica embutido no `.exe` (definido no build, nao por config).
 
 ### `banners/`
 Imagens do slideshow da tela inicial (`slide1.jpg`, `slide2.jpg`, `slide3.png`).
